@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<title> The Donut Form </title>
+	
+	
+	<script type = "text/javascript">
+		//In this part we want to call a function that will display the results from above.
+	
+	function Display ()	//syntax for function is type keyword for function name then input variables in it
+				//multiple sets of data from the user are an array and start at zero
+				//single responses from the user are scalars
+	{
+		//code below is used for check boxes
+		var order = document.getElementsByName("order");
+		var shape = document.getElementsByName("shape");
+	
+		var random = " ";	//create new variable to take info and put into string form, hold text to display back
+		
+		for (var i=0; i<order.length; i=i+1)	//initialize, built-in function, increment by one
+							//create a for loop that runs the length of the array
+		{
+			if (order[i].checked == true)
+ 
+			{
+				random = random + order[i].value + " "; //add on whatever is in the random array at position i
+			}
+		}
+	
+		document.getElementById("spanorder").innerHTML = random;
+		
+		//code below is used for radio buttons 
+		//can use if/else if
+		var shape = getElementsByName("shape");
+		
+		if (shape[0].checked == true)
+			{
+				document.getElementById("spanshape").innerHTML = shape[0].value
+			}
+		else if (shape[1].checked == true)
+			{
+				document.getElementById("spanshape").innerHTML = shape[1].value
+			}
+		else if (shape[2].checked == true)
+			{
+				document.getElementById("spanshape").innerHTML = shape[2].value
+			}
+		else if (shape[3].checked == true)
+			{
+				document.getElementById("spanshape").innerHTML = shape[3].value
+			}
+		else if (shape[4].checked == true)
+			{
+				document.getElementById("spanshape").innerHTML = shape[4].value
+			}
+		else if (shape[5].checked == true)
+			{
+				document.getElementById("spanshape").innerHTML = shape[5].value
+			}
+		//keep adding else if statements for each radio button option 
+	}
+
+
+	</script>
+	
+	<!--transitioning from the function to the form-->
+
+	</head>
+
+
+
+<body>
+	<h1> The Donut Form </h1>
+	<h2> Pick your favorite donut for consumption </h2>
+
+	<hr length = 100%>
+
+
+<form>
+	<p>
+		<h3> Hello! Welcome to ENGR Donuts. Please fill out the following form </h3>
+
+		<!--Ask that the user enter in their first and last name using the input tag-->
+		
+First name: <input type = "text" name = "FirstName" ID = "FN" value= "Enter your first name" size = "30" maxlength = "60"> <br>
+Last name: <input type = "text" Name = "LastName" ID = "LN" value = "Enter your last name" size = "30" maxlength = "60"> <br>
+
+	</p>
+
+
+
+	<p>
+		<!--Ask the user to explain how they found our donut shop-->
+		<b> Please tell us how you found us: </b> <br> <br>
+		<textarea name = "foundUS" rows = "3" cols = "50" ID = "US" wrap = "hard"> Please enter information here </textarea>
+	</p>
+		
+
+
+	<p>
+		<!--Request the customer's order type(s)-->
+
+		<b> What are you ordering today? </b>
+		
+		<input type = "checkbox" name = "order" id = "donut" value = "A Donut"> A Donut
+		<input type = "checkbox" name = "order" id = "coffee" value = "A Coffee"> A Coffee
+		<input type = "checkbox" name = "order" id = "tea" value = "Some Tea"> Some Tea
+		<input type = "checkbox" name = "order" id = "puppy" value = "A hundred puppies"> A hundred Puppies	
+	</p>
+
+
+
+	<p>
+		<!--Ask the user what shape they want their donuts to be-->
+		<b> What shape would you like your donut to be? </b>
+
+		<input type = "radio" name = "shape" id = "shape1" value = "circular"> Circular	
+		<input type = "radio" name = "shape" id = "shape2" value = "square"> Square
+		<input type = "radio" name = "shape" id = "shape3" value = "triangular"> Triangular
+		<input type = "radio" name = "shape" id = "shape4" value = "hexagonal">	Hexagonal
+		<input type = "radio" name = "shape" id = "shape5" value = "None!"> None	
+	</p>
+
+	
+
+	<p>
+		<!--Ask what flavor they want their donut to be, using a select tag-->
+		
+		<b> What donut flavor would you like? </b> <br> <br>
+		
+		<select name = "flavors" id = "SelectFlavor" size = "5"> 
+			<option> Chocolate </option>
+			<option> Boston Creme </option> <!--Cryeiue^m-->
+			<option> Green Eggs and Ham aka Strawberry </option>
+			<option> Apple Cider aka the only option </option>
+			<option> Banana </option>
+		</select>
+	</p>
+
+
+
+	<p>
+		<!--Ask what toppings they want-->
+		
+		<b> What toppings would you like? </b> <br> <br>
+
+		<select name = "toppings" id = "SelectToppings" size = "5"> 
+			<option> Sprinkles </option> 
+			<option> Oreo </option>
+			<option> Coconut </option>
+			<option> Fudge </option>
+			<option> Lemon </option>
+			<option> Gummy Worms </option>
+		</select>
+	</p>
+
+
+	<p>
+		<!--Add a reset button-->
+		
+		<b> Would you like to reset your order? </b> <br> <br>
+
+		<input type = "reset" value = "Reset">
+	</p>
+
+
+
+	<h2> Here is what you ordered: </h2>
+	
+	<p>
+		Your order is : <span id = "spanorder">	</span>
+	</p> 			
+	
+	<input type = "button" onclick = "Display()" value = "Click here to display">
+	
+</form>
+
+<!--The end of the form tag means the end of user input. Now I can start with JavaScript so I can build functions that analyze the user data-->
+
+
+</body>
+
+
+</html>

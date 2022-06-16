@@ -1,0 +1,89 @@
+<!-- ENGR-0011
+     In Class Example to illustrate how to use TABLES in HTML
+	 Date Created: November 6, 2018
+	 Created by: David Sanchez
+	Last Updated: November 6, 2018
+	
+	-->
+	
+<html>
+	<head>
+			<title>Tables </title>
+	</head>
+
+	<br>
+	
+<body>
+	<h1 align=center>How to build Tables</h1>
+
+	<p>
+	The fundamentals for building tables focus on using the tr tag for rows,
+	the th tags for headings and, the td tags for columns/cells. 
+	</p>
+	
+	<table border=3>
+	
+		<!-- table captions  by default are placed at the top of the table -->
+		<caption> My First table </caption>
+		
+	<!-- start with a row tag -->
+		<tr>
+			<th> Jane </th>	<th>Dragon</th>	<th> Jester </th>
+		
+		<tr>
+			<td align = center rowspan=2 colspan=2> A </td>
+			<td> B </td>
+			<td> C </td>
+			
+		</tr>
+
+		<tr>
+			<td></td>	<td>2</td>	<td>3</td>
+		
+		</tr>
+		
+
+	</table>
+
+
+	<br>
+	
+	<table border = 3>
+			<caption align = center> Nested Table </caption>
+	
+
+     <!-- this is to start the 1st row -->	
+		<tr>
+			<th> C1 </th>	<th>C2</th> <th>C3</th>
+		</tr>
+	
+	<!-- below is the code for the complicated 2nd row -->
+	
+		<tr>
+			<td> 1 </td>	
+			<td>  
+				<table border =2>
+					<tr> <td>a</td>	<td>b </td>	</tr>
+					
+					<tr> <td>c</td>	<td>d </td>	</tr>
+			
+				</table>
+			</td>
+			<td> 3</td>
+			
+		
+		</tr>
+	
+	
+	
+	
+	</table>
+	
+	
+	
+</body>
+
+	
+
+</html>
+

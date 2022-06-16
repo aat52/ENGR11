@@ -1,0 +1,46 @@
+<!--Angela Tseng-->
+
+<html>
+
+<head>
+	<title> Frame 4 </title>
+
+<script = "text/javascript">
+	function Display ()
+	{
+		var pref_array = document.getElementsByName("pref_array");
+	
+		var textToDisplay = " ";
+		for (var i=0; i<pref_array.length; i=i+1)
+		{
+			if (pref_array[i].checked == true) 
+			{
+			textToDisplay = textToDisplay + pref_array[i].value + " ";
+			}
+		}
+
+		document.getElementById("spanpref").innerHTML = textToDisplay;
+	
+	}
+</script>
+</head>
+
+<body bgcolor="goldenrod">
+<form>
+<p align="center"><b><br /><br /><br /><br /><br />What type of movies do you prefer?<br />
+	<input type = "checkbox" name = "pref_array" Id = "AA" value = "Action/adventure">Action/adventure
+	<input type = "checkbox" name = "pref_array" Id = "DR" value = "Drama">Drama
+	<input type = "checkbox" name = "pref_array" Id = "RO" value = "Romance">Romance
+	<input type = "checkbox" name = "pref_array" Id = "SF" value = "SciFi">SciFi
+	<input type = "checkbox" name = "pref_array" Id = "WE" value = "Western">Western
+	<br /><br />
+
+	<input type = "button" onclick= "Display()" value = "Click here to display your result">
+	<span id = "spanpref"></span></b>
+
+</p>
+
+</body>
+</form>
+
+</html>

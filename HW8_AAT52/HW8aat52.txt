@@ -1,0 +1,188 @@
+<!DOC html>
+
+<!--Angela Tseng R04-->
+
+<html>
+        <head>
+
+                <TITLE> Defining Webpage Title: My Attempt at HTML </TITLE>
+        <!--Add a title to the head of your web page that will define your web page.-->
+
+        </head>
+
+<body align=left>
+        <body background="1.jpg">
+        <body text=black link=black vlink=maroon alink=blue>
+
+        <h1>My name is Angela, and I am a student in ENGR-0011 at the University of Pittsburgh.</h1>
+<!--The following statement should be bold and centered.-->
+
+        <p ALIGN=CENTER><b>
+                        This web page is being written as a requirement for my ENGR0011 
+			class but the content in the page is mine and what is posted is 
+			my choice and is not the position of the University and does not 
+			reflect on the University policies.
+                 </b></p>
+
+<ol type=1 start=1>
+<!--menu-->
+	<li><a href="#Interesting professional societies">Interesting Professional Societies</a></li>
+	<li><a href="#Why I love college">Why I Love College</a></li>
+	<li><a href="#Jobs I would like to do when I grow up">Jobs I Would Like to Do When I Grow Up</a></li>
+	<li><a href="#Things I have learned about college">Things I Have Learned About College</a></li>
+	<li><a href="RelatedLinks.html"	target="_blank">Related Links</a></li>
+	<li><a href="MyFuture.html" target="_blank">My Future</a></li>
+	<li><a href="Resume.pdf" target="_blank">My Resume</a></li>
+</ol>
+
+<a href=http://www.pitt.edu/~prt31/ target="_blank">Prosper's Webpage</a>
+
+  
+<!--This is a Bio section with a few paragraphs describing who you are. The text should be at least 300 words long. Make the color of the text something other than black.-->
+                <p>
+                        <font color="sky blue">
+                        I am a 17 year old freshman studying at the Swanson School of 
+			Engineering at the University of Pittsburgh. I was born in 
+			Folson, California, and moved to Northern Virginia soon after. 
+                        </font color>
+		</p>
+
+		<h2 ALIGN=CENTER> <font color="red">
+			<A NAME="Interesting Professional Societies"> Interesting Professional Societies </A></h2></font color>
+<!--Center the heading and make the color of the heading something other than black.add a list that includes the engineering programs offered at the university.Under each of these programs list at least two professional societies that service that particular field of engineering. Link each of these societies to the society web page, and have it open a new browser window when you click on it. Insert the society logo next to the name of the society-->
+		<!--List of Pitt engineering programs-->
+		<ul>
+			<li>Bioengineering
+			<ul>
+				<li><a href="https://aimbe.org/" target="_blank">American Institute for Medical and Biological Engineering</a>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKjnZ5mpCbBj3TeyrkPzhhqy9IX9IRe5Q7mEDX9_eSemn5heIpbw" height="10%" width="10%"></li>
+				<li><a href="https://www.bmes.org/" target="_blank">Biomedical Engineering Society</a>
+					<img src="http://sites.psu.edu/bmes/wp-content/uploads/sites/14656/2014/08/BMES.jpg" height="10%" width="10%"></li>
+			</ul>
+			</li>
+			<li>Chemical and Petroleum
+			<ul>
+				<li><a href="https://www.aiche.org/" target="_blank">American Institute of Chemical Engineers</a>
+					<img src="https://engineering.jhu.edu/chembe/wp-content/uploads/sites/11/2013/09/aiche_logo.jpg" height="10%" width="10%"></li>
+				<li><a href="https://www.spe.org/en/" target="_blank">Society of Petroleum Engineers</a>
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Society_of_Petroleum_Engineers_Logo.svg/1200px-Society_of_Petroleum_Engineers_Logo.svg.png" height="10%" width="10%"></li>
+			</ul>
+			</li>	
+			<li>Civil and Environmental
+			<ul>
+				<li><a href="https://www.asce.org/" target="_blank">American Society of Civil Engineers</a>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEOg8ZKAUqkwNWCmmfjTy3t4We07_C-6W_dwQnAuxQU9r7fyPV" height="10%" width="10%"></li>
+				<li><a href="http://www.aaees.org/" target="_blank">American Academy of Environmental Engineers and Scientists</a>
+				<img src="https://sites.google.com/site/luaaees/_/rsrc/1386450190315/config/customLogo.gif?revision=8" height="10%" width="10%"></li>
+			</ul>
+			</li>
+			<li>Electrical and Computer
+			<ul>
+				<li><a href="https://www.ieee.org/" target="_blank">Institute of Electrical and Electronics Engineers</a>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Ieee_blue.jpg" height="10%" width="10%"></li>
+				<li><a href="http://www.ace-acet.org/" target="blank">Association of Computer Engineers and Technicians</a>
+					<img src="http://www.ace-acet.org/assets/img/logo.png" height="10%" width="10%"></li>
+			</ul>
+			</li>
+			<li>Industrial
+			<ul>
+				<li><a href="http://www.iise.org/Home/" target="_blank">Institute of Industrial and Systems Engineers</a>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/IISELogo_Horiz_FullName_RGB.jpg" height="10%" width="10%"></li>
+				<li><a href="http://www.iaeng.org/ISINDE.html" target="_blank">IAENG Society of Industrial Engineers</a>
+					<img src="http://www1.iaeng.com/conference/IMECS2010/images/logo/IAENG.jpg" height="10%" width="10%"></li>
+			</ul>	
+			</li>
+			<li>Mechanical and Materials
+			<ul>
+				<li><a href="https://www.asme.org/" target="_blank">American Society of Mechanical Engineers</a>
+					<img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Logo_of_the_ASM" height="10%" width="10%"></li>
+				<li><a href="https://www.asminternational.org/" target="_blank">ASM International</a>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/ASM_logo.png" height="10%" width="10%"></li>
+			</ul>
+			</li>
+		</ul>
+
+
+		<font color="orange">
+<!--add a nested unnumbered list; "Who are the members of this society? Why does this association exist? Becoming a member"Under the first item, add another unnumbered list that addresses the size of membership, and who are the members – students, engineers, faculty, others. Under the second item, add another unnumbered list that addresses the services, conferences, publications, etc. that the society provides. Finally, under the last item, add another unnumbered list that addresses why you would join this organization and how it would be useful to you as an engineer.underline something, make something bold, and make something italic. End this section with a horizontal rule that has a width of 50% and a size of your choice. Hint: use <hr> tag with width attribute-->
+		<h3 align="center">American Institute of Chemical Engineers</h3> </font color>
+
+    		<center>
+    		<p> The AIChE is the leading global association for chemical engineers. I think one of the most advantageous aspects of this association is being able to connect with other engineers and have access to the novel research being conducted around the world. There are many events hosted by the AIChE that allos chemical engineers to stay up to date with new discoveries.
+		</p></center>
+		<ul>
+    			<li>Who are the members of this society?</li>	
+			<ul>
+				<li><i>More than 50,000 members</i></li>
+        			<li>Professionals, Graduate Students, Undergraduate Students, etc. </li>
+    			</ul>
+    
+   	 		<li>Why does this association exist?</li>
+    			<ul>
+        			<li><u>AIChE Annual Meeting</u></li>
+        			<li>Annual Student Conference </li>
+        			<li>CEP Magazine</li>
+    			</ul>
+  			<li>Why should I become a member? </li>
+  			<ul>
+        			<li><b>Access novel information and discoveries</b></li>
+        			<li>Connect with a global network of engineers </li>
+    			</ul>
+		</ul>
+
+<hr width="50%" size="3px"=" color="black">
+
+<h2 ALIGN=CENTER> <font color="yellow">
+<A NAME="Why I love college"> Why I Love College </font color> </A></h2>
+<!--include a heading for each item and a (numbered or unnumbered) list of three things in response to each heading-->
+	<ul>
+		<li>Living Independently: I like living independently 
+		because I can make my own decisions about how to spend my time.</li>
+		<li>The TA's: I like having TA's who can help with the material in class.</li>
+		<li>Transportation: I like being able to walk or take public buses wherever I need to go.</li>
+	</ul>
+
+
+<h2 ALIGN=CENTER> <font color="green">
+<A NAME="Jobs I would like to do when I grow up"> Jobs I Would Like to Do When I Grow Up </font color> </A></h2>
+<!--include a heading for each item and a (numbered or unnumbered) list of three things in response to each heading-->
+<ul>
+                <li>Psychiatrist</li>
+                <li>Anesthesiologist</li>
+                <li>Researcher</li>
+        </ul>
+
+
+<h2 ALIGN=CENTER> <font color="blue">
+<A NAME="Things I have learned about college"> Things I Have Learned About College </font color> </A></h2>
+<!--include a heading for each item and a (numbered or unnumbered) list of three things in response to each heading-->
+<ul>
+                <li>Being in somewhere completely new is difficult at first.</li>
+                <li>Exploring the area and meeting new people is important.</li>
+                <li>It is important to find a balance between work and personal time.</li>
+        </ul>
+
+                <h2 ALIGN="CENTER"> <font color="purple"> Things I like to do. </font color> </h2>
+<!--Center the heading and make the color of the heading something other than black. Write a paragraph describing at least three things that interest you.-->                			
+		<p>
+			<font color="black">
+                        My interests vary greatly. For example, I enjoy playing games, 
+			photography, and writing in my spare time. In regards to games,
+			I see them as a bonding experience with the people I play with. 
+			Be it a simple card game or an online video game, I find games
+			as a fun way to pass time and interact with different people. I 			
+			have discovered that you can learn a lot about a person through 			
+			how they respond to being bested at something, or how they respond 
+			to winning. As for photography, I enjoy preserving a moment in 	
+			time, for further reflection and enjoyment in the future. A 
+			picture can hold emotions and memories, things that are often 
+			forgotten over time. I apply a similar concept with writing. While 
+			photos can often trigger a memory and are helpful in capturing a 
+			moment, some ideas can only be expressed and preserved through 	
+			writing. When time permits, I take the time to write and organize 
+			my thoughts.
+			</font color>
+                </p>
+
+</body>
+</html>

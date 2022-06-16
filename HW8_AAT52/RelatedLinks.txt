@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--Angela Tseng R04-->
+
+<html>
+<!--Links that I'm interested in-->
+<head>
+	<title>Related Links</title>
+</head>
+
+<body>
+        <body background="1.jpg">
+
+<h2 align="center"><font color="purple"> Related Links</font color> </h2>
+	<ul>
+		<li><a href= "https://www.pitt.edu/" target="_blank"> University of Pittsburgh </a></li>
+		<li><a href= "https://www.engineering.pitt.edu/" target="blank"> Swanson School of Engineering </a></li>
+		<li><a href= "https://www.engineering.pitt.edu/Departments/Bioengineering/" target="_blank"> Bioengineering </a></li>
+
+		<li><a href= "http://teasnyou.com" target="_blank"> The Place Where It All Began </a></li>
+		<li><a href= "https://www.angelikafilmcenter.com/mosaic" target="_blank"> The Only Place You Should Go For Movies </a></li>
+		<li><a href= "https://www.fukutea.com" target="_blank">Good Date Place</a></li>
+		<li><a href= "https://www.random.org" target="_blank">Random Website</a></li>
+		<li><a href= "https://www.google.com/maps" target="_blank">If You Need Some Direction</a></li>
+</ul>
+
+</body>
+
+</html>
+
+

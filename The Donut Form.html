@@ -1,0 +1,161 @@
+<!-- ENGR-0011 Forms and Functions
+    Created by: Student Name
+	Last Updated: 2018/11/28
+	
+	This example is going to illustrate how to program Forms -->
+	
+<html>
+	<head>
+		<title> The Donut Form </title>
+		
+		<script type="text/javascript">
+	
+		// IN this part we want to call a FUNCTIOn that will display the results from above
+	
+		function Display ()   //syntax for function is type keyword function then function name then input variables in ()
+		{
+			var random = document.getElementsByName("order");
+			var shape = document.getElementsByName("shape");
+		
+			var Newrandom =""; // to hold the text to display back to the user
+			
+			for (var i=0; i<random.length; i=i+1) //create a for loop that runs the lenght of the random array
+			{
+				if(random[i].checked == true) 
+				
+				{
+				
+				     Newrandom = Newrandom + random[i].value + " "; //add on whatever is in the random array at position i
+				}
+			
+			}
+			
+			document.getElementById("spanrandom").innerHTML = Newrandom;
+
+		
+		
+		     // write the code that will allow you to retrieve the information from the radio button that the	
+		     //user selected. Note: it will in the form of a scalar so you don't necessarily need a loop
+		
+		
+		}
+	
+	
+	
+	
+	</script>
+
+	<!-- Note that are you now tranmsitioning from FUNCTIONS to the FORM -->
+		
+		
+	</head>
+
+<body>
+	<h1> The Donut Form </h1>
+	<h2> Pick your favorite donut for consumption </h2>
+	
+	<hr length = 100% />
+
+<form>
+	<p>
+		<h3> Hello! Welcome to ENGR Donuts. Please fill out the following form </h3>
+		
+		<!-- Ask that the user enter in their first and last name using 
+		the input tag-->
+		
+		First Name:<input type = "text" name= "FirstName" id="FN" value="Enter your first name" size ="30" maxlength ="60"/> <br/> 
+		Last Name: <input type = "text" name = "LastName" id="LN" value="Enter your last name"  size ="30" maxlength ="60"/> <br/>
+		
+	</p>
+
+	
+	<p>
+		<!-- Ask teh user to explain how they found our donut shop -->
+		<b> Please tell us how you found us:</b> <br/> <br/>
+		<textarea name="foundUS" rows="3" cols="50" id="US" wrap="hard"> Please enter information here </textarea>
+
+	</p>
+	
+	<p>
+		<!-- request the customer's order type(s) -->
+		
+		<b> What are you ordering today? </b> <br/> <br/>
+		
+		<input type="checkbox" name="order" id="donut" value = "A Donut"/> A Donut
+		<input type="checkbox" name="order" id="coffee"value = "A Coffee"/> A Coffee
+		<input type="checkbox" name="order" id="tea"   value = "Some Tea"/> Some Tea	
+		<input type="checkbox" name="order" id="puppy" value = "A hundred Puppies"/> A hundred Puppies
+	
+	
+	</p>
+	
+	<p>
+		<!-- Ask the user what shape they want their donut to be -->
+		
+		<b> What shape would you like your donut to be? </b>
+		
+		<input type="radio" name="shape" id="shape1" value="Circular" /> Circular
+		<input type="radio" name="shape" id="shape2" value="Square" 	  /> Square
+		<input type="radio" name="shape" id="shape3" value="Triangular"	/>Triangular
+		<input type="radio" name="shape" id="shape4" value="Hexagonal"	/>Hexagonal
+		<input type="radio" name="shape" id="shape5" value="None!"	/> None	
+		
+	</p>
+	
+	<p>
+		<!-- Ask what flavor they want their donut to be using a select tag -->
+		
+		<b> What donut flavor would you like? </b> <br/> <br/>
+		
+		<select name="flavors" id="SelectFlavor" size="5">
+			
+			<option>Chocolate </option>
+			<option>Boston Cryeiue7^m </option>
+			<option>Green Eggs and Ham aka Strawberry </option>
+			<option>Apple Cider aka the only option </option>
+			<option>Banana </option> 
+		
+		</select>
+
+	</p>
+	
+	<p>
+		<!-- add a reset button -->
+		<b> Would you like to reset your order? <b> <br/> <br/>
+		
+		<input type="reset" value="Reset your order" />
+	
+	</p>
+	
+	<h2> Here is what you ordered: </h2>
+	
+	   
+	<p> 
+		Your order is: <span id ="spanrandom">			</span>
+	
+	</p>
+	
+	<input type="button" onclick="Display()" value="Click here to display" />
+	
+</form>	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+</body>
+
+
+
+</html>

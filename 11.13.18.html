@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title> Intro to JavaScript </title>
+	</head>
+
+<body>
+	<!-- The first thing to do when coding in JavaScript is to 
+		deploy the script tag-->
+
+	<script type= "text/javascript">
+	
+		document.write("<h1> Welcome to JavaScript </h1>"); 
+		//this is the header tag in JavaScript 
+		
+		document.write("The JavaScript is adding this text 
+			to the website");
+	
+		alert("\n The first \\n puts the text on a new line, the
+			double slash by the n is needed to allow the 
+			printing of \\n in the printout. If you want to add \na 
+			tabs in the print out you insert \\t and it will tab the text.");
+	
+		
+		document.write("<pre> The \n is what creates a new line </pre>");
+			//var is the keyword for creating variables
+		var note="this text";
+			
+		document.write(note, "&nbsp; &nbsp;", typeof note, "<br>");
+
+		//this is where we are going to do some math
+
+		var variable1 = 37;	//integer
+		var variable2 = 3.7;	//floating point/double
+		var variable3 = "text";	//string
+		var variable4;		//undefined
+		var variable5 = null;	//empty object
+		var variable6 = false;	//logic, boolean
+	
+		document.write(variable1, " ", typeof variable1, "<br>");
+		
+		//I can assign multiple variables in a single line with a single 'var' prompt
+		var a = 1, b = 2, c = 3, d = 4, e = 5, f = 6, g = 7, h = 8;
+
+		var w, x, y, z; //these variables will be undefined until I assign them
+			a value
+	
+		z = a+b-h;
+		y = c*d*e;
+		x = f/b;
+		w = g%2;
+
+		document.write("Write the equation for z", "<br>");
+		document.write("z = a+b-h", "<br>");
+		document.write("z = ", z, "<br>");
+
+
+		
+	</script>
+
+</body>
+
+</html>
+
+		
+
+		document.write("<h1> Welcome to JavaScript </h1>"); 
+
+		var a = 5, b = 3;
+		var c;
+		
+		c = a+b;
+
+		document.write("a = 5", "<br>");
+		document.write("b = 3", "<br>");
+		document.write("a+b = ", c, "<br>");

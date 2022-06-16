@@ -1,0 +1,93 @@
+<!--HTML example to demo JavaScript. Specifically, to illustrate how to use Logic and Loops
+Created by: Angela
+Last Updated: November 15, 2018
+ENGR-001 10am
+-->
+
+
+<html>
+	<head>
+		<title>Logic and Loops</title>
+	</head>
+
+<body>
+	<script type= "text/javascript">
+		
+		var a = 1, b = 2;
+		var sum1, sum2;
+		
+		var c = 5
+		//var c = prompt("What value would you like to enter for c?");
+
+		sum1 = a+b;
+		sum2 = a + c;
+
+		document.write("sum1 = ", sum 1, "<br>");
+		document.write("c = ", c, "<br>");
+
+		if(sum1 > = sum2) //this is where the conditional is evaluated
+		{//in these brackets are the actions that are taken IF the statement is true
+
+		document.write("sum1 is greater than or equal to sum2", "<br>");
+		}
+
+		
+		else if (sum1 = = 7) //note that I do not need to end this line with a ;
+		{
+		document.write("sum1 is equal 7", "<br>");
+		
+
+		else 
+		{//the statements or actions are executed if the above conditional is NOT true
+
+		document.write("sum1 is not greater than or equal to sum2", "<br>");
+		}
+
+		
+		//this is out of the IF statement
+		
+		document.write("We are out of the IF statement", "<br>");
+
+		
+		//below is my example of a NESTED IF statement
+
+		if (sum1 >= sum2)
+		{
+			if(sum1 > 0)
+
+				{
+				
+				document.write("sum1 is not zero and greater than sum 2", "<br>")
+				}
+		}
+
+
+		//examples of while loop
+
+		var password = 10;
+		var input = 1;
+		
+		while (password ! = input)
+		
+		{
+		
+		document.write("The password is wrong, please stop trying to break in.","<br>")
+		
+		//input = prompt("Re-enter password please:","<br>");
+		
+		input = input + 1; //entering the correct password if the original is wrong
+		//input++ means to increase increments
+		}
+		
+
+		//example of FOR loop
+
+		
+
+
+	</script>
+
+
+
+
+</html>
